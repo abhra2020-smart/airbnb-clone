@@ -1,14 +1,12 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
         <title>Airbnb</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
     </div>
   )
 }
