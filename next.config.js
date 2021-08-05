@@ -3,5 +3,8 @@ module.exports = {
     distDir: 'out',
     images: {
         domains: ["links.papareact.com"]
-    }
+    },
+    eslint: {
+    ignoreDuringBuilds: true,
+  }
 }
